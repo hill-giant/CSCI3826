@@ -1,15 +1,11 @@
-- name: Submissions | Create submissions directory
-  file:
-    path: '{{ submissions_path }}'
-    state: directory
-
-- name: Submissions | Create submissions directories
+- name: Submissions | Ensure submissions directories are present
   file:
     path: '{{ submissions_path }}/submission{{ "%02d" | format(item | int) }}'
     state: directory
+    recurse: yes
   loop: '{{ range(0, submissions_count + 1) | list }}'
 
-- name: Copy submission00 contents to host
+- name: Copy submissions to host
   copy:
-    src: submission00/
-    dest: '{{ submissions_path }}/submission00/'
+    src: submissions/ 
+    dest: '{{ submissions_path }}/'
