@@ -1,0 +1,15 @@
+- name: Submissions | Create submissions directory
+  file:
+    path: '{{ submissions_path }}'
+    state: directory
+
+- name: Submissions | Create submissions directories
+  file:
+    path: '{{ submissions_path }}/submission{{ "%02d" | format(item | int) }}'
+    state: directory
+  loop: '{{ range(0, submissions_count + 1) | list }}'
+
+- name: Copy submission00 contents to host
+  copy:
+    src: submission00/
+    dest: '{{ submissions_path }}/submission00/'
