@@ -2,7 +2,7 @@
   <!-- my_business.php -->
   <body class="Body w3-auto">
     <header class="w3-container">
-        <?php 
+        <?php
           include("common/banner.html");
           include("common/menus.html");
         ?>
@@ -34,7 +34,7 @@
             </footer>
           </div>
         </div>
-      </div>  
+      </div>
     </main>
     <footer class="w3-container">
       <div class="w3-bar w3-center w3-teal">

@@ -14,7 +14,7 @@
 - name: Create website directory
   file:
     path: '{{ website_path }}'
-    state: directory 
+    state: directory
 
 - name: Unarchive zip file
   unarchive:
@@ -40,7 +40,7 @@
     file_type: file
     patterns:
       - document_head.html
-  register: document_heads 
+  register: document_heads
 
 - name: Replace incorrect directory in base URL path
   replace:

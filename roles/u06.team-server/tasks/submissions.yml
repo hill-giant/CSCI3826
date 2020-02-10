@@ -7,5 +7,5 @@
 
 - name: Copy submissions to host
   copy:
-    src: submissions/ 
+    src: submissions/
     dest: '{{ submissions_path }}/'

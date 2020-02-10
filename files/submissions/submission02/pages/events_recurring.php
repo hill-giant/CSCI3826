@@ -3,7 +3,7 @@
   <body class="Body w3-auto">
     <header class="w3-container">
       <?php
-        include("../common/banner.html");
+        include("../common/banner.php");
         include("../common/menus.html");
       ?>
     </header>

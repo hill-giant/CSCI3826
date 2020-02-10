@@ -1,9 +1,9 @@
 <?php include("../common/document_head.html"); ?>
-  <!-- events_recurring.php -->
+  <!-- vision.php -->
   <body class="Body w3-auto">
     <header class="w3-container">
       <?php
-        include("../common/banner.html");
+        include("../common/banner.php");
         include("../common/menus.html");
       ?>
     </header>
@@ -12,22 +12,11 @@
       w3-yellow" style="padding-right:0">
       <article>
         <h3>
-          Recurring Events
+          About JaCoT: Our Vision and Mission
         </h3>
-        <p>We are in the process of organizing sponsored events. Listed here
-        will be all of our recurring events. Recurring events will include but
-        not be limited to:</p>
-        <ul>
-          <li>
-            Tutorials on home renovation.
-          </li>
-          <li>
-            Talks on various tool-related topics.
-          </li>
-          <li>
-            Live demos of high-powered tools in action.
-          </li>
-        </ul>
+        <p>What we lack in ambition we make up for in tools! A fleshed-out
+        vision statement is coming soon.</p>
+        <p>We apologize for any inconvenience!</p>
       </article>
     </main>
     <footer class="w3-container">
