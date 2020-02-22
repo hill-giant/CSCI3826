@@ -1,9 +1,9 @@
 <?php include("../common/document_head.html"); ?>
-  <!-- events_recurring.php -->
+  <!-- estore.php -->
   <body class="Body w3-auto">
     <header class="w3-container">
       <?php
-        include("../common/banner.html");
+        include("../common/banner.php");
         include("../common/menus.html");
       ?>
     </header>
@@ -12,20 +12,27 @@
       w3-yellow" style="padding-right:0">
       <article>
         <h3>
-          Recurring Events
+          Welcome to our e-store
         </h3>
-        <p>We are in the process of organizing sponsored events. Listed here
-        will be all of our recurring events. Recurring events will include but
-        not be limited to:</p>
+        <p>
+          Please choose from the following links:
+        </p>
         <ul>
           <li>
-            Tutorials on home renovation.
+            To browse our product catalog,
+            <a title="Not active yet" href="pages/sorry.html">click here</a>.
           </li>
           <li>
-            Talks on various tool-related topics.
+            For existing users: To login,
+            <a title="Not yet active" href="pages/sorry.html">click here</a>.
           </li>
           <li>
-            Live demos of high-powered tools in action.
+            For new users: To register,
+            <a title="Not yet active" href="pages/sorry.html">click here</a>.
+          </li>
+          <li>
+            For existing users: To log out,
+            <a title="Not yet active" href="pages/sorry.html">click here</a>.
           </li>
         </ul>
       </article>

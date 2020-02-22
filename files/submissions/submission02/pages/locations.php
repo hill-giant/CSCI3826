@@ -1,9 +1,9 @@
 <?php include("../common/document_head.html"); ?>
-  <!-- events_recurring.php -->
+  <!-- locations.php -->
   <body class="Body w3-auto">
     <header class="w3-container">
       <?php
-        include("../common/banner.html");
+        include("../common/banner.php");
         include("../common/menus.html");
       ?>
     </header>
@@ -12,22 +12,24 @@
       w3-yellow" style="padding-right:0">
       <article>
         <h3>
-          Recurring Events
+          Our Locations
         </h3>
-        <p>We are in the process of organizing sponsored events. Listed here
-        will be all of our recurring events. Recurring events will include but
-        not be limited to:</p>
-        <ul>
-          <li>
-            Tutorials on home renovation.
-          </li>
-          <li>
-            Talks on various tool-related topics.
-          </li>
-          <li>
-            Live demos of high-powered tools in action.
-          </li>
-        </ul>
+        <p>We are still in the midst of establishing ourselves as a company.
+        Eventually, we will provide a list of store locations.
+        </p>
+        <p>The address and contact information for our primary location:
+        </p>
+        <p>
+          Just a Couple of Tools, Ltd.
+          <br>
+          1984 Fake Street
+          <br>
+          Halifax, NS
+          <br>
+          Canada B3K 2B4
+          <br>
+          Tel: 902.432.1234
+        </p>
       </article>
     </main>
     <footer class="w3-container">
