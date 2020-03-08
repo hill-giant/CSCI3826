@@ -1,6 +1,6 @@
   <?php include("common/document_head.html"); ?>
   <!-- my_business.php -->
-  <body class="Body w3-auto">
+  <body class="Body w3-auto" onload="carousel()">
     <header class="w3-container">
         <?php
           include("common/banner.php");
