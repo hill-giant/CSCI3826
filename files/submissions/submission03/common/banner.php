@@ -1,7 +1,7 @@
       <div class="w3-border w3-border-black w3-yellow">
         <div id="logo" class="w3-half w3-center">
           <img src="images/logo.png" alt="JaCoT Logo"
-            style="width=100%">
+            style="width: 100%">
         </div>
         <div class="w3-half w3-right-align">
           <div class="w3-panel">
