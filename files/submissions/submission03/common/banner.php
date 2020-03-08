@@ -12,5 +12,4 @@
             ?>
           </div>
         </div>
-      </div>
-      <script src="scripts/datetime.js"></script>
+        <script src="scripts/datetime.js"></script>
